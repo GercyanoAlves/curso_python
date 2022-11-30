@@ -3,7 +3,7 @@ CONSTANTE = "Variáveis" que não vão mudar (Colocado em letras maiúsculas)
 Muitas condições no mesmo if (ruim)
     <- Contagem de complexidade (ruim)
 """
-velocidade = 61 # velocidade atual do carro
+velocidade = 62 # velocidade atual do carro
 local_carro = 100 # local em que o carro está na estrada
 
 RADAR_1 = 60 # Velocidade máxima do radar1
@@ -17,8 +17,8 @@ carro_multado_radar_1 = carro_passou_radar_1 and velocidade_carro_pass_radar_1
 if velocidade_carro_pass_radar_1:
     print("Velocidade superior a 60km")
 
-if carro_passou_radar_1:
+elif carro_passou_radar_1:
     print("Carro passou radar 1")
 
-if carro_multado_radar_1:
+elif carro_multado_radar_1:
     print("Carro multado em radar 1") 
